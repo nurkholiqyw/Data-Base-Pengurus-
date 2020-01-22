@@ -67,7 +67,7 @@ $row=mysqli_fetch_assoc($data);
               </div>
              <p>
               <button type="submit" class="btn btn-primary"><i class="material-icons">swap_horiz</i>Ubah</button>
-              <button type="reset" class="btn btn-danger"><i class="material-icons">clear</i>Batal</button>
+              <button type="submit" method="post" action="tampil_data.php" class="btn btn-danger"><i class="material-icons">clear</i>Batal</button>
           	</p>
             
 
